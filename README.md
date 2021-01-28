@@ -22,7 +22,7 @@ Publish the website in the given URL.
 ## PROGRAM:
 
 ## cylindervolume.html
-~
+~~~
 {% load static %}
 <!DOCTYPE html>
 <html>
@@ -64,9 +64,9 @@ Publish the website in the given URL.
 </body>
 
 </html>
-~
+~~~
 ## trianglearea.html
-~
+~~~
 {% load static %}
 <!DOCTYPE html>
 <html>
@@ -108,9 +108,9 @@ Publish the website in the given URL.
 </body>
 
 </html>
-~
+~~~
 ## cylinder.js
-~
+~~~
 button_add = document.querySelector('#button_add');
 
 button_add.addEventListener('click', function(e){
@@ -125,9 +125,9 @@ button_add.addEventListener('click', function(e){
     txtc.value = c;
 
 });
-~
+~~~
 ## triangle.js
-~
+~~~
 button_add = document.querySelector('#button_add');
 
 button_add.addEventListener('click', function(e){
@@ -142,9 +142,9 @@ button_add.addEventListener('click', function(e){
     txtc.value = c;
 
 });
-~
+~~~
 ## calculations.css
-~
+~~~
 *{
       box-sizing: border-box;
       font-family: Arial, Helvetica, sans-serif;
@@ -202,7 +202,7 @@ input{
 button{
     color: purple;
 }
-
+~~~
 ## OUTPUT:
 
 ![output](./static/img/js1.png)
@@ -211,3 +211,5 @@ button{
 
 ## RESULT:
 Thus a website is designed for the area of triangle and volume of cylinder using javascript and is hosted in the URL 
+http://prashethaa.student.saveetha.in:8000/cylindervolume/
+http://prashethaa.student.saveetha.in:8000/trianglearea/
