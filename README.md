@@ -205,9 +205,9 @@ button{
 ~~~
 ## OUTPUT:
 
-![output](/static/img/cylinderjs.png)
+![output](./static/img/js1.png)
 
-![output](/static/img/triangleareajs.png)
+![output](./static/img/js2.png)
 
 ## RESULT:
 Thus a website is designed for the area of triangle and volume of cylinder using javascript and is hosted in the URL 
